@@ -1,0 +1,93 @@
+/*顶部导航*/
+.nav{height: 1079px;}
+.nav-border{width: 100%;height: 140px;background: #131314 }
+.nav-list{margin: 0 60px 0 60px;height: 140px;
+	display: flex;flex-direction:row;align-items: center;justify-content: space-between;
+}
+.nav-list .nav-logo{width: 51px;height: 37px}
+.nav-list .nav-ico{width: 18px;height: 18px}
+.nav-list ul{display: flex;flex-direction:row;justify-content: center;}
+.nav-list ul li a{margin-left: 80px;color: #FFFFFF;font-size: 16px;}
+.nav-list span{font-size: 14px;color: #FFFFFF}
+.nav-list .navon{color: #D9B765}
+
+.culture{height: 453px;background: #EFF3F6;display: flex;flex-direction: column;justify-content: center;align-items: center;}
+.culture .tip1{font-size: 44px;color: #0C0C0D;}
+.culture .tip2{font-size: 24px;color: #0C0C0D;}
+.culture a{display: block;width: 409px;height: 65px;background: #0C0C0D;color: #FFFFFF;font-size: 16px;margin-top: 61px;text-align:center;line-height: 65px}
+
+/*新闻模块*/
+/*新闻轮播*/
+.news-banner{height:468.75px; overflow:hidden; position:relative;}
+.news-banner .hd{ height:12px; overflow:hidden; position:absolute; right:0; bottom:14px; z-index:1;width: 100%;text-align:center;}
+.news-banner .hd ul{ overflow:hidden;}
+.news-banner .hd ul li{width:12px; height:12px; line-height:70px;  background:#fff; cursor:pointer;display: inline-block;margin:0 5px;border-radius: 50%;}
+.news-banner .hd ul li.on{ background:#038dde;}
+.news-banner .bd{position:relative; height:100%; z-index:0;}
+.news-banner .bd li{margin: 0 37.5px 0 37.5px;height: 468.75px;zoom:1; vertical-align:middle;position: relative;background-size: 100% 100% !important;}
+.news-banner .bd li .nr{width: 420px;height: 400px;background: #fff;position: absolute;top: 40px;right: 110px;padding: 36px 40px 0;z-index: 2}
+.news-banner .bd li .nr h2{font-size: 24px;color: #d19f78;line-height: 26px}
+.news-banner .bd li .nr h3{font-size: 30px;color: #28c0a0;line-height: 36px;margin-bottom: 7px}
+.news-banner .bd li .nr h4 a{font-size: 24px;color: #333333;line-height: 52px;font-weight: bold}
+.news-banner .bd li .nr h5{font-size: 14px;color: #999999;line-height: 24px;height: 48px;overflow: hidden;margin-bottom: 15px}
+.news-banner .bd li .nr .jj{font-size: 12px;line-height: 24px;color: #999999;height: 86px;overflow: hidden;padding-top: 14px;border-top: 3px solid #ebebeb;}
+.news-banner .bd li .nr:hover h4 a{color: #28c0a0}
+/* 下面是前/后按钮代码，如果不需要删除即可 */
+.news-banner .prev,.news-banner .next{position:absolute;display:block; width:48px; height:45px;cursor: pointer;bottom: 1px;z-index: 9;background-color: #c0cac7;background-position:center !important;background-repeat:no-repeat !important;}
+.news-banner .prev{right:86px;background-image: url(../images/mall_btn_banner_last.png);}
+.news-banner .next{right:37px;background-image: url(../images/mall_btn_banner_next.png);}
+.news-banner .prev:hover,.news-banner .next:hover{background-color: #28c0a0}
+/*新闻导航*/
+.news-nav-border{width: 100%;height: 87.5px;background: #FFFFFF }
+.news-nav-list{margin: 0 37.5px 0 37.5px;height: 87.5px;display: flex;flex-direction:row;align-items: center;justify-content: space-between;}
+.news-nav-list .news-nav-logo{width: 31.875px;height: 23.125px}
+.news-nav-list .news-nav-ico{width: 11.25px;height: 11.25px}
+.news-nav-list ul{display: flex;flex-direction:row;justify-content: center;}
+.news-nav-list ul li a{margin-left: 50px;color: #000;font-size: 16px;}
+.news-nav-list span{font-size: 14px;color: #000}
+.news-nav-list .navon{color: #D9B765}
+.news{margin: 75.625px 37.5px 0 37.5px;display: flex;justify-content: space-between;}
+.news-list li{display: flex;padding-bottom: 40px}
+.news-list-main{display: flex;flex-direction: column;margin-left: 50px; margin-right: 50px;margin-top: 28.75px}
+.news-list-sapn1{color: #0C0C0D;font-size: 32px}
+.news-list-sapn2{color: #75737D;font-size: 14px;margin: 7px 0 10px 0;overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2; }
+.news-list-sapn3{color: #0C0C0D;font-size: 16px}
+.news-list-sapn4{color: #75737D;font-size: 14px}
+.news-list img{width: 312.5px;height: 175px}
+.news-ad{width: 312.5px;height: 517.5px;background: #0C0C0D;}
+.news-yprice{color: #fff;font-size: 16px}
+.news-price{color: #D9B765;font-size: 16px}
+.news-boy{display: flex;color: #fff;margin-top: 44px;margin-left: 25px;justify-content: space-between;}
+.news-type{display: flex;flex-direction: column;margin-top: 32.75px;margin-left: 25px}
+.news-button-boy{margin-right: 25px;margin-top: 38px;display: block;width: 100px;height: 42.5px;font-size: 16px;color: #fff;background: #D9B765;text-align: center;line-height: 42.5px}
+.news-ad img{width: 262.5px;height: 182.5px;margin: 25px 0 0 25px}
+/*新闻分页*/
+.page_list{margin:40px 0 130px;text-align: center;font-size: 14px;color: #323232;line-height: 40px;}
+.page_list a{display: inline-block;padding:0 12px;height: 30px;text-align: center;line-height: 30px;font-size: 14px;color: #666666;margin: 0 2px;overflow: hidden;background: #ededed;}
+.page_list a:hover,.page_list .on{color: #fff;background: #129955;}
+/*新闻详情*/
+.news-content{width: 1242px;margin:80px auto}
+.news-content-title{text-align: center;font-size: 48px;color: #0C0C0D}
+.news-content-type{font-size: 21px;color: #0C0C0D;text-align: center;display: block;}
+.news-content-time{font-size: 14px;color: #75737D;text-align: center;display: block;margin-bottom: 10px}
+.news_details{font-size: 14px;line-height: 26px;color: #666666;padding-bottom: 54px;border-bottom: 5px solid #efefed}
+.news_details_page{width: 1242px;margin:0 auto}
+.news_details_page li{width: 50%;font-size: 16px;color: #666666;line-height: 40px;padding: 18px 0 26px;float: left;}
+.news_details_page li:nth-child(2){text-align: right;}
+.news_details_page li a{color: #666}
+.news_details_page li a:hover{color: #28c0a0}
+
+/*关于我们*/
+.about-img img{height: 912px;width:100%;}
+.about-title{font-size: 120px;color: #171A1E;margin:150px 0 0 262px;}
+/*底部样式*/
+.footer{height: 240px;width: 100%;background: #0C0C0D;color: #FFFFFF;font-size: 21px;display: flex;justify-content: space-between;}
+.footer .footer-logo{width: 55px;height: 36.125px;}
+.footer .copyright{margin-top: 103.375px}
+.footer .footer-left{margin: 50.5625px 0 0 44px;display: flex;flex-direction:column;}
+.footer .footer-right{color: #FFFFFF;margin: 50.5625px 51.25px 0 0;display: flex;}
+.footer .footer-right .footer-nav{margin-left: 150px}
+.footer .footer-right a{color: #FFFFFF;font-size: 21px;margin-bottom: 12px}
+.footer-nav{display: flex;flex-direction: column;}
+.footer-nav span{margin-bottom: 18px}
+.footer-contact img{width: 30.1px height:24.5px}
